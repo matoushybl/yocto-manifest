@@ -14,7 +14,7 @@
 
   <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="ac3" revision="master" name="BaseOS-base" path="sources/base">
+  <project remote="patches" revision="master" name="yocto-base" path="sources/base">
 	   <linkfile dest="README" src="README"/>
 	    <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
